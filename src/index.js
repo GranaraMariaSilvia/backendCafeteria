@@ -26,3 +26,5 @@ app.listen(app.get("port"), () => {
   console.log("estoy escuchando el puerto " + app.get("port"));
   console.log(path.join(__dirname,'../public'))
 });
+
+
