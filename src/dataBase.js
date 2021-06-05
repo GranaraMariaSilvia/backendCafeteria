@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const url ='mongodb+srv://mariasilvia:buscandoaromeo@cluster0.ne88u.mongodb.net/test'; //cadena de conexion base de datos
+const url ='mongodb+srv://mariasilvia:buscandoaRomeo@cluster0.ne88u.mongodb.net/test'; //cadena de conexion base de datos
 
 mongoose.connect(url,{
     useNewUrlParser: true,
